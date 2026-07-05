@@ -1,0 +1,155 @@
+[
+  {
+    "name": "22 West Jefferson",
+    "location": "Rockville, MD",
+    "description": "Four-story wood building over a three-story concrete podium.",
+    "type": "Mixed-use",
+    "material": "Wood + concrete",
+    "scope": "New construction",
+    "category": "residential"
+  },
+  {
+    "name": "1634 North Capitol St.",
+    "location": "Washington, DC",
+    "description": "Six-story mixed-use building with four-story wood over two-story concrete shear walls and a two-story steel moment frame.",
+    "type": "Mixed-use",
+    "material": "Wood + concrete + steel",
+    "scope": "New construction",
+    "category": "residential"
+  },
+  {
+    "name": "Pendry Hotel",
+    "location": "Park City, UT",
+    "description": "Three five-story concrete buildings over a two-story podium.",
+    "type": "Hospitality",
+    "material": "Concrete",
+    "scope": "New construction",
+    "category": "commercial"
+  },
+  {
+    "name": "Mayflower Office Building",
+    "location": "Mayflower, UT",
+    "description": "A 240-foot-tall concrete office structure.",
+    "type": "Commercial",
+    "material": "Concrete",
+    "scope": "New construction",
+    "category": "commercial"
+  },
+  {
+    "name": "Intermountain Healthcare Building",
+    "location": "Salt Lake County, UT",
+    "description": "Three-story wood healthcare structure.",
+    "type": "Healthcare",
+    "material": "Wood",
+    "scope": "New construction",
+    "category": "institutional"
+  },
+  {
+    "name": "Lone Peak Office Building",
+    "location": "Highland / Alpine City, UT",
+    "description": "Five-story steel office structure with buckling-restrained braces.",
+    "type": "Commercial",
+    "material": "Steel",
+    "scope": "New construction",
+    "category": "commercial"
+  },
+  {
+    "name": "South Jordan Fire Station",
+    "location": "South Jordan, UT",
+    "description": "Two-level masonry public-safety structure.",
+    "type": "Public safety",
+    "material": "Masonry",
+    "scope": "New construction",
+    "category": "institutional"
+  },
+  {
+    "name": "OSH Building — University of Utah",
+    "location": "Salt Lake City, UT",
+    "description": "Concrete university structure.",
+    "type": "Higher education",
+    "material": "Concrete",
+    "scope": "New construction",
+    "category": "institutional"
+  },
+  {
+    "name": "Mandell Weiss Theatre — UCSD",
+    "location": "La Jolla, CA",
+    "description": "Three-story existing steel structure with braced frames.",
+    "type": "Cultural",
+    "material": "Steel",
+    "scope": "Existing building",
+    "category": "institutional"
+  },
+  {
+    "name": "Haystack Project",
+    "location": "San Diego County, CA",
+    "description": "Two five-story wood buildings over a two-story podium and parking structure.",
+    "type": "Residential",
+    "material": "Wood + concrete",
+    "scope": "New construction",
+    "category": "residential"
+  },
+  {
+    "name": "St. Paul Manor",
+    "location": "California",
+    "description": "Five-story and twelve-story concrete residential structures.",
+    "type": "Residential",
+    "material": "Concrete",
+    "scope": "New construction",
+    "category": "residential"
+  },
+  {
+    "name": "Michelson Lab — China Lake",
+    "location": "China Lake, CA",
+    "description": "Existing concrete laboratory buildings with a central spine and wings.",
+    "type": "Laboratory",
+    "material": "Concrete",
+    "scope": "Existing building",
+    "category": "industrial"
+  },
+  {
+    "name": "PFS Compton",
+    "location": "Compton, CA",
+    "description": "Tenant improvement in an existing concrete and steel facility.",
+    "type": "Tenant improvement",
+    "material": "Concrete + steel",
+    "scope": "Tenant improvement",
+    "category": "industrial"
+  },
+  {
+    "name": "Tuscany Crest Pump Station",
+    "location": "San Diego, CA",
+    "description": "One-story masonry building with freestanding walls.",
+    "type": "Infrastructure",
+    "material": "Masonry",
+    "scope": "New construction",
+    "category": "industrial"
+  },
+  {
+    "name": "Southwestern College",
+    "location": "Chula Vista, CA",
+    "description": "Structural steel staircases for a college campus.",
+    "type": "Higher education",
+    "material": "Steel",
+    "scope": "Specialty structures",
+    "category": "institutional"
+  },
+  {
+    "name": "Uncommons Office Buildings",
+    "location": "Las Vegas, NV",
+    "description": "Four four-story concrete tilt-up office buildings.",
+    "type": "Commercial",
+    "material": "Concrete tilt-up",
+    "scope": "New construction",
+    "category": "commercial"
+  },
+  {
+    "name": "Tesla Buildings 3888 & 3912",
+    "location": "San Diego, CA",
+    "description": "Industrial tenant improvements in existing buildings.",
+    "type": "Industrial",
+    "material": "Existing structures",
+    "scope": "Tenant improvement",
+    "category": "industrial"
+  }
+]
