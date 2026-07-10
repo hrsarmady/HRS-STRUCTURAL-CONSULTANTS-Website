@@ -2,13 +2,15 @@
 
 A responsive, dependency-free static website designed for direct publishing with GitHub Pages.
 
+## Contact email
+
+The website contact email is currently set to `Hamid@hrsstructural.com`.
+
 ## Before publishing
 
-1. Open `index.html` and `contact.html`.
-2. Replace every instance of `YOUR_EMAIL@example.com` with the correct HRS email address.
-3. Review the biography and service descriptions.
-4. Add verified license information, office location, phone number, and social links if desired.
-5. Confirm that the project-experience disclaimer matches how the projects may be represented.
+1. Review the biography and service descriptions.
+2. Add verified license information, office location, phone number, and social links if desired.
+3. Confirm that the project-experience disclaimer matches how the projects may be represented.
 
 The canonical project list is stored in `data/projects.json`, making it easy to update without changing the page markup.
 
@@ -51,6 +53,7 @@ GitHub will show the DNS records required for the custom domain. Preserve any ex
 - `projects.html` — sector-filtered project portfolio
 - `contact.html` — project inquiry page
 - `styles.css` — visual system and responsive layouts
+- `extra.css` — multi-page layout and responsive supplements
 - `script.js` — navigation, project filtering, animations, and contact form
 - `data/projects.json` — project portfolio data
 - `assets/hrs-logo.svg` — scalable company logo used in the header and footer
