@@ -10,26 +10,21 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="extra.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header" id="top">
     <div class="shell header-inner">
-      <a class="brand" href="#top" aria-label="HRS Structural Consultants home">
-        <img class="brand-logo" src="assets/hrs-logo.svg" alt="">
-      </a>
-
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
-        <span></span><span></span>
-        <span class="sr-only">Open navigation</span>
-      </button>
-
+      <a class="brand" href="index.html" aria-label="HRS Structural Consultants home"><img class="brand-logo" src="assets/hrs-logo.svg" alt=""></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span class="sr-only">Open navigation</span></button>
       <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
-        <a href="#services">Services</a>
-        <a href="#projects">Projects</a>
-        <a href="#about">About</a>
-        <a class="button button-small" href="#contact">Start a project</a>
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About Us</a>
+        <a class="button button-small" href="contact.html">Start a project</a>
       </nav>
     </div>
   </header>
@@ -42,185 +37,30 @@
           <p class="eyebrow">Structural clarity. Practical solutions.</p>
           <h1>Engineering structures that stand with purpose.</h1>
           <p class="hero-lede">HRS Structural Consultants brings focused structural engineering expertise to complex new construction, renovations, and existing-building challenges.</p>
-          <div class="hero-actions">
-            <a class="button" href="#projects">Explore our experience</a>
-            <a class="text-link" href="#contact">Discuss your project <span aria-hidden="true">↗</span></a>
-          </div>
+          <div class="hero-actions"><a class="button" href="projects.html">Explore our experience</a><a class="text-link" href="contact.html">Discuss your project <span aria-hidden="true">↗</span></a></div>
         </div>
-
         <div class="hero-visual" aria-label="Abstract structural frame illustration">
-          <svg viewBox="0 0 700 620" role="img" aria-labelledby="frame-title frame-desc">
-            <title id="frame-title">Structural building frame</title>
-            <desc id="frame-desc">An abstract line illustration of a multi-story structural frame.</desc>
-            <defs>
-              <linearGradient id="frame-fill" x1="0" y1="0" x2="1" y2="1">
-                <stop offset="0" stop-color="#1e3949" />
-                <stop offset="1" stop-color="#0d222e" />
-              </linearGradient>
-            </defs>
-            <path class="frame-plane" d="M90 530 394 608 650 500 342 430Z" />
-            <g class="frame-lines">
-              <path d="M122 512V164L438 70v458M224 538V134M331 564V102M543 489V152L224 244v294M650 500V120L331 215v349" />
-              <path d="m122 164 316-94 212 50-319 95Zm0 112 316-95 212 50-319 95Zm0 117 316-95 212 50-319 95Zm0 119 316-95 212 50-319 95Z" />
-              <path d="m224 244 107 87-107 90 107 143m107-383 105 91-105 87 105 130m-421-213 102 145-102 91m528-281-107 128 107 141" />
-            </g>
-            <g class="frame-nodes">
-              <circle cx="122" cy="164" r="5" /><circle cx="331" cy="215" r="5" />
-              <circle cx="438" cy="70" r="5" /><circle cx="650" cy="120" r="5" />
-              <circle cx="122" cy="512" r="5" /><circle cx="331" cy="564" r="5" />
-              <circle cx="438" cy="417" r="5" /><circle cx="650" cy="500" r="5" />
-            </g>
-          </svg>
-          <div class="drawing-note note-a">Lateral system</div>
-          <div class="drawing-note note-b">Load path</div>
-          <div class="visual-index">HRS / 01</div>
+          <svg viewBox="0 0 700 620" role="img" aria-labelledby="frame-title frame-desc"><title id="frame-title">Structural building frame</title><desc id="frame-desc">An abstract line illustration of a multi-story structural frame.</desc><defs><linearGradient id="frame-fill" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1e3949" /><stop offset="1" stop-color="#0d222e" /></linearGradient></defs><path class="frame-plane" d="M90 530 394 608 650 500 342 430Z" /><g class="frame-lines"><path d="M122 512V164L438 70v458M224 538V134M331 564V102M543 489V152L224 244v294M650 500V120L331 215v349" /><path d="m122 164 316-94 212 50-319 95Zm0 112 316-95 212 50-319 95Zm0 117 316-95 212 50-319 95Zm0 119 316-95 212 50-319 95Z" /><path d="m224 244 107 87-107 90 107 143m107-383 105 91-105 87 105 130m-421-213 102 145-102 91m528-281-107 128 107 141" /></g><g class="frame-nodes"><circle cx="122" cy="164" r="5" /><circle cx="331" cy="215" r="5" /><circle cx="438" cy="70" r="5" /><circle cx="650" cy="120" r="5" /><circle cx="122" cy="512" r="5" /><circle cx="331" cy="564" r="5" /><circle cx="438" cy="417" r="5" /><circle cx="650" cy="500" r="5" /></g></svg>
+          <div class="drawing-note note-a">Lateral system</div><div class="drawing-note note-b">Load path</div><div class="visual-index">HRS / 01</div>
         </div>
       </div>
-      <div class="shell hero-proof">
-        <span>Wood</span><i></i><span>Concrete</span><i></i><span>Steel</span><i></i><span>Masonry</span>
-      </div>
+      <div class="shell hero-proof"><span>Wood</span><i></i><span>Concrete</span><i></i><span>Steel</span><i></i><span>Masonry</span></div>
     </section>
 
-    <section class="intro section">
-      <div class="shell split-heading reveal">
-        <div>
-          <p class="eyebrow">What we do</p>
-          <h2>Rigorous engineering, grounded in how buildings get built.</h2>
-        </div>
-        <p>From early system selection through construction support, HRS works to make structural decisions clear, coordinated, and buildable.</p>
-      </div>
-    </section>
+    <section class="intro section"><div class="shell split-heading reveal"><div><p class="eyebrow">What we do</p><h2>Rigorous engineering, grounded in how buildings get built.</h2></div><p>From early system selection through construction support, HRS works to make structural decisions clear, coordinated, and buildable.</p></div></section>
 
-    <section class="services section" id="services">
-      <div class="shell">
-        <div class="section-top reveal">
-          <p class="eyebrow">Services</p>
-          <p class="section-number">01 — 04</p>
-        </div>
-        <div class="service-grid">
-          <article class="service-card reveal">
-            <span class="service-number">01</span>
-            <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M8 54h48M14 54V20l18-9 18 9v34M22 54V29h20v25M22 39h20" /></svg>
-            <h3>New Building Design</h3>
-            <p>Structural systems for residential, commercial, institutional, hospitality, and industrial buildings.</p>
-          </article>
-          <article class="service-card reveal">
-            <span class="service-number">02</span>
-            <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M11 53V13h32v40M11 24h32M27 13v40M48 23l6-6m-6 6 6 6M48 43l6-6" /></svg>
-            <h3>Existing Buildings</h3>
-            <p>Evaluation, renovation, tenant improvement, adaptive reuse, and strengthening of existing structures.</p>
-          </article>
-          <article class="service-card reveal">
-            <span class="service-number">03</span>
-            <svg viewBox="0 0 64 64" aria-hidden="true"><path d="m8 50 15-29 10 20 8-15 15 24M8 50h48M17 50l6-29m10 20 8-15" /></svg>
-            <h3>Seismic &amp; Lateral Design</h3>
-            <p>Practical lateral-force-resisting systems, seismic assessment, and retrofit strategies.</p>
-          </article>
-          <article class="service-card reveal">
-            <span class="service-number">04</span>
-            <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M13 50h38M18 50V18h28v32M24 28h16M24 36h16M25 13h14M32 13v5" /></svg>
-            <h3>Construction Support</h3>
-            <p>Responsive submittal review, field observations, and coordination through project delivery.</p>
-          </article>
-        </div>
-      </div>
-    </section>
+    <section class="services section" id="services"><div class="shell"><div class="section-top reveal"><p class="eyebrow">Services</p><p class="section-number">01 — 04</p></div><div class="service-grid"><article class="service-card reveal"><span class="service-number">01</span><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M8 54h48M14 54V20l18-9 18 9v34M22 54V29h20v25M22 39h20" /></svg><h3>New Building Design</h3><p>Structural systems for residential, commercial, institutional, hospitality, and industrial buildings.</p></article><article class="service-card reveal"><span class="service-number">02</span><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M11 53V13h32v40M11 24h32M27 13v40M48 23l6-6m-6 6 6 6M48 43l6-6" /></svg><h3>Existing Buildings</h3><p>Evaluation, renovation, tenant improvement, adaptive reuse, and strengthening of existing structures.</p></article><article class="service-card reveal"><span class="service-number">03</span><svg viewBox="0 0 64 64" aria-hidden="true"><path d="m8 50 15-29 10 20 8-15 15 24M8 50h48M17 50l6-29m10 20 8-15" /></svg><h3>Seismic &amp; Lateral Design</h3><p>Practical lateral-force-resisting systems, seismic assessment, and retrofit strategies.</p></article><article class="service-card reveal"><span class="service-number">04</span><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M13 50h38M18 50V18h28v32M24 28h16M24 36h16M25 13h14M32 13v5" /></svg><h3>Construction Support</h3><p>Responsive submittal review, field observations, and coordination through project delivery.</p></article></div><a class="text-link text-link-dark" href="services.html">View services <span aria-hidden="true">↗</span></a></div></section>
 
-    <section class="projects section" id="projects">
-      <div class="shell">
-        <div class="projects-heading reveal">
-          <div>
-            <p class="eyebrow">Selected experience</p>
-            <h2>Complex structures.<br>Clear solutions.</h2>
-          </div>
-          <p>A portfolio spanning mixed-use, residential, hospitality, office, public safety, education, laboratories, and industrial facilities.</p>
-        </div>
+    <section class="projects section" id="projects"><div class="shell"><div class="projects-heading reveal"><div><p class="eyebrow">Selected experience</p><h2>Complex structures.<br>Clear solutions.</h2></div><p>A portfolio spanning residential, commercial, hospitality, office, public safety, education, laboratories, and industrial facilities.</p></div><div class="project-toolbar project-toolbar-link reveal"><a class="text-link" href="projects.html">View all projects by sector <span aria-hidden="true">↗</span></a></div><div class="project-grid" id="project-grid" data-limit="4" aria-live="polite"></div><p class="experience-note">Selected experience includes completed projects and active contracted assignments identified in the firm’s project records.</p></div></section>
 
-        <div class="project-toolbar reveal" role="group" aria-label="Filter projects">
-          <button class="filter is-active" type="button" data-filter="all">All</button>
-          <button class="filter" type="button" data-filter="new">New construction</button>
-          <button class="filter" type="button" data-filter="existing">Existing &amp; TI</button>
-          <button class="filter" type="button" data-filter="public">Institutional</button>
-        </div>
+    <section class="metrics section" aria-label="Experience highlights"><div class="shell metrics-grid"><div class="metric reveal"><strong>48</strong><span>Documented projects</span></div><div class="metric reveal"><strong>240'</strong><span>High-rise experience</span></div><div class="metric reveal"><strong>5+</strong><span>U.S. jurisdictions represented</span></div><div class="metric reveal"><strong>4</strong><span>Primary structural materials</span></div></div></section>
 
-        <div class="project-grid" id="project-grid" aria-live="polite"></div>
-        <p class="experience-note">Selected experience includes projects completed during Hamid Sarmadi’s professional career.</p>
-      </div>
-    </section>
+    <section class="about section" id="about"><div class="shell about-layout"><div class="about-visual reveal" aria-hidden="true"><div class="about-grid"></div><svg viewBox="0 0 520 620"><path d="M62 550h394M95 550V100h288v450M95 198h288M95 308h288M95 420h288M190 100v450M288 100v450" /><path class="accent-line" d="m95 198 95 110-95 112m288-222-95 110 95 112" /></svg><p>Structure is the quiet framework behind every great space.</p></div><div class="about-copy reveal"><p class="eyebrow">About HRS</p><h2>Focused expertise. Direct collaboration.</h2><p class="about-lede">HRS Structural Consultants is built around a straightforward idea: strong engineering comes from technical rigor, clear communication, and respect for the full design and construction team.</p><p>Our experience ranges from multi-story podium buildings and concrete towers to steel offices, masonry public facilities, laboratories, theaters, and tenant improvements.</p><div class="about-values"><div><span>01</span><strong>Responsive</strong></div><div><span>02</span><strong>Collaborative</strong></div><div><span>03</span><strong>Buildable</strong></div></div><a class="text-link text-link-dark" href="about.html">Learn about our qualifications <span aria-hidden="true">↗</span></a></div></div></section>
 
-    <section class="metrics section" aria-label="Experience highlights">
-      <div class="shell metrics-grid">
-        <div class="metric reveal"><strong>17</strong><span>Selected projects</span></div>
-        <div class="metric reveal"><strong>240'</strong><span>High-rise experience</span></div>
-        <div class="metric reveal"><strong>5</strong><span>U.S. jurisdictions represented</span></div>
-        <div class="metric reveal"><strong>4</strong><span>Primary structural materials</span></div>
-      </div>
-    </section>
-
-    <section class="about section" id="about">
-      <div class="shell about-layout">
-        <div class="about-visual reveal" aria-hidden="true">
-          <div class="about-grid"></div>
-          <svg viewBox="0 0 520 620">
-            <path d="M62 550h394M95 550V100h288v450M95 198h288M95 308h288M95 420h288M190 100v450M288 100v450" />
-            <path class="accent-line" d="m95 198 95 110-95 112m288-222-95 110 95 112" />
-          </svg>
-          <p>Structure is the quiet framework behind every great space.</p>
-        </div>
-        <div class="about-copy reveal">
-          <p class="eyebrow">About HRS</p>
-          <h2>Focused expertise. Direct collaboration.</h2>
-          <p class="about-lede">HRS Structural Consultants is led by Hamid Sarmadi and built around a straightforward idea: strong engineering comes from technical rigor, clear communication, and respect for the full design and construction team.</p>
-          <p>Our experience ranges from multi-story podium buildings and concrete towers to steel offices, masonry public facilities, laboratories, theaters, and tenant improvements. That range informs practical decisions at every scale.</p>
-          <div class="about-values">
-            <div><span>01</span><strong>Responsive</strong></div>
-            <div><span>02</span><strong>Collaborative</strong></div>
-            <div><span>03</span><strong>Buildable</strong></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="contact section" id="contact">
-      <div class="shell contact-panel reveal">
-        <div class="contact-copy">
-          <p class="eyebrow">Start a conversation</p>
-          <h2>Have a structural challenge?</h2>
-          <p>Tell us what you are planning, where the project is located, and how we can help.</p>
-          <a class="contact-email" href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com <span aria-hidden="true">↗</span></a>
-        </div>
-        <form class="contact-form" id="contact-form">
-          <div class="form-row">
-            <label>Name<input name="name" autocomplete="name" required></label>
-            <label>Email<input name="email" type="email" autocomplete="email" required></label>
-          </div>
-          <label>Project location<input name="location" autocomplete="address-level2"></label>
-          <label>How can we help?<textarea name="message" rows="4" required></textarea></label>
-          <button class="button button-light" type="submit">Send project inquiry <span aria-hidden="true">↗</span></button>
-          <p class="form-status" id="form-status" role="status"></p>
-        </form>
-      </div>
-    </section>
+    <section class="contact section" id="contact"><div class="shell contact-panel reveal"><div class="contact-copy"><p class="eyebrow">Start a conversation</p><h2>Have a structural challenge?</h2><p>Tell us what you are planning, where the project is located, and how we can help.</p><a class="contact-email" href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com <span aria-hidden="true">↗</span></a></div><form class="contact-form" id="contact-form"><div class="form-row"><label>Name<input name="name" autocomplete="name" required></label><label>Email<input name="email" type="email" autocomplete="email" required></label></div><label>Project location<input name="location" autocomplete="address-level2"></label><label>How can we help?<textarea name="message" rows="4" required></textarea></label><button class="button button-light" type="submit">Send project inquiry <span aria-hidden="true">↗</span></button><p class="form-status" id="form-status" role="status"></p></form></div></section>
   </main>
 
-  <footer class="site-footer">
-    <div class="shell footer-grid">
-      <a class="brand footer-brand" href="#top" aria-label="HRS Structural Consultants home">
-        <img class="brand-logo footer-logo" src="assets/hrs-logo.svg" alt="">
-      </a>
-      <div class="footer-links">
-        <a href="#services">Services</a>
-        <a href="#projects">Projects</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-      </div>
-      <div class="footer-meta">
-        <p>Structural engineering for new and existing buildings.</p>
-        <p>© <span id="year"></span> HRS Structural Consultants</p>
-      </div>
-    </div>
-  </footer>
-
+  <footer class="site-footer"><div class="shell footer-grid"><a class="brand footer-brand" href="index.html" aria-label="HRS Structural Consultants home"><img class="brand-logo footer-logo" src="assets/hrs-logo.svg" alt=""></a><div class="footer-links"><a href="services.html">Services</a><a href="projects.html">Projects</a><a href="about.html">About Us</a><a href="contact.html">Contact</a></div><div class="footer-meta"><p>Structural engineering for new and existing buildings.</p><p>© <span class="year"></span> HRS Structural Consultants</p></div></div></footer>
   <script src="script.js"></script>
 </body>
 </html>
