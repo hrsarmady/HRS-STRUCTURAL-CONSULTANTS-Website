@@ -1,155 +1,53 @@
 [
-  {
-    "name": "22 West Jefferson",
-    "location": "Rockville, MD",
-    "description": "Four-story wood building over a three-story concrete podium.",
-    "type": "Mixed-use",
-    "material": "Wood + concrete",
-    "scope": "New construction",
-    "category": "residential"
-  },
-  {
-    "name": "1634 North Capitol St.",
-    "location": "Washington, DC",
-    "description": "Six-story mixed-use building with four-story wood over two-story concrete shear walls and a two-story steel moment frame.",
-    "type": "Mixed-use",
-    "material": "Wood + concrete + steel",
-    "scope": "New construction",
-    "category": "residential"
-  },
-  {
-    "name": "Pendry Hotel",
-    "location": "Park City, UT",
-    "description": "Three five-story concrete buildings over a two-story podium.",
-    "type": "Hospitality",
-    "material": "Concrete",
-    "scope": "New construction",
-    "category": "commercial"
-  },
-  {
-    "name": "Mayflower Office Building",
-    "location": "Mayflower, UT",
-    "description": "A 240-foot-tall concrete office structure.",
-    "type": "Commercial",
-    "material": "Concrete",
-    "scope": "New construction",
-    "category": "commercial"
-  },
-  {
-    "name": "Intermountain Healthcare Building",
-    "location": "Salt Lake County, UT",
-    "description": "Three-story wood healthcare structure.",
-    "type": "Healthcare",
-    "material": "Wood",
-    "scope": "New construction",
-    "category": "institutional"
-  },
-  {
-    "name": "Lone Peak Office Building",
-    "location": "Highland / Alpine City, UT",
-    "description": "Five-story steel office structure with buckling-restrained braces.",
-    "type": "Commercial",
-    "material": "Steel",
-    "scope": "New construction",
-    "category": "commercial"
-  },
-  {
-    "name": "South Jordan Fire Station",
-    "location": "South Jordan, UT",
-    "description": "Two-level masonry public-safety structure.",
-    "type": "Public safety",
-    "material": "Masonry",
-    "scope": "New construction",
-    "category": "institutional"
-  },
-  {
-    "name": "OSH Building — University of Utah",
-    "location": "Salt Lake City, UT",
-    "description": "Concrete university structure.",
-    "type": "Higher education",
-    "material": "Concrete",
-    "scope": "New construction",
-    "category": "institutional"
-  },
-  {
-    "name": "Mandell Weiss Theatre — UCSD",
-    "location": "La Jolla, CA",
-    "description": "Three-story existing steel structure with braced frames.",
-    "type": "Cultural",
-    "material": "Steel",
-    "scope": "Existing building",
-    "category": "institutional"
-  },
-  {
-    "name": "Haystack Project",
-    "location": "San Diego County, CA",
-    "description": "Two five-story wood buildings over a two-story podium and parking structure.",
-    "type": "Residential",
-    "material": "Wood + concrete",
-    "scope": "New construction",
-    "category": "residential"
-  },
-  {
-    "name": "St. Paul Manor",
-    "location": "California",
-    "description": "Five-story and twelve-story concrete residential structures.",
-    "type": "Residential",
-    "material": "Concrete",
-    "scope": "New construction",
-    "category": "residential"
-  },
-  {
-    "name": "Michelson Lab — China Lake",
-    "location": "China Lake, CA",
-    "description": "Existing concrete laboratory buildings with a central spine and wings.",
-    "type": "Laboratory",
-    "material": "Concrete",
-    "scope": "Existing building",
-    "category": "industrial"
-  },
-  {
-    "name": "PFS Compton",
-    "location": "Compton, CA",
-    "description": "Tenant improvement in an existing concrete and steel facility.",
-    "type": "Tenant improvement",
-    "material": "Concrete + steel",
-    "scope": "Tenant improvement",
-    "category": "industrial"
-  },
-  {
-    "name": "Tuscany Crest Pump Station",
-    "location": "San Diego, CA",
-    "description": "One-story masonry building with freestanding walls.",
-    "type": "Infrastructure",
-    "material": "Masonry",
-    "scope": "New construction",
-    "category": "industrial"
-  },
-  {
-    "name": "Southwestern College",
-    "location": "Chula Vista, CA",
-    "description": "Structural steel staircases for a college campus.",
-    "type": "Higher education",
-    "material": "Steel",
-    "scope": "Specialty structures",
-    "category": "institutional"
-  },
-  {
-    "name": "Uncommons Office Buildings",
-    "location": "Las Vegas, NV",
-    "description": "Four four-story concrete tilt-up office buildings.",
-    "type": "Commercial",
-    "material": "Concrete tilt-up",
-    "scope": "New construction",
-    "category": "commercial"
-  },
-  {
-    "name": "Tesla Buildings 3888 & 3912",
-    "location": "San Diego, CA",
-    "description": "Industrial tenant improvements in existing buildings.",
-    "type": "Industrial",
-    "material": "Existing structures",
-    "scope": "Tenant improvement",
-    "category": "industrial"
-  }
+  {"name":"22 West Jefferson","location":"Rockville, MD","description":"Four-story wood building over a three-story concrete podium, including bridge analysis and connection detailing.","type":"Mixed-use","material":"Wood + concrete","scope":"New construction + specialty connection","category":"residential"},
+  {"name":"1634 North Capitol Street","location":"Washington, DC","description":"Six-story mixed-use building combining wood framing, concrete shear walls, and a steel moment frame.","type":"Mixed-use","material":"Wood + concrete + steel","scope":"Design + construction support","category":"residential"},
+  {"name":"Haystack Project","location":"San Diego County, CA","description":"Two five-story wood buildings over a two-story podium and parking structure.","type":"Residential","material":"Wood + concrete","scope":"New construction","category":"residential"},
+  {"name":"St. Paul Manor","location":"California","description":"Five-story and twelve-story concrete residential structures.","type":"Residential","material":"Concrete","scope":"New construction","category":"residential"},
+  {"name":"1100 Old Rail Lane Renovation","location":"Virginia","description":"Structural engineering for a renovation, including geotechnical coordination and design-set development.","type":"Residential","material":"Existing structure","scope":"Renovation","category":"residential"},
+  {"name":"Yarbrough Addition","location":"8006 Fairfax Road, VA","description":"Structural review and stamping services for a residential addition.","type":"Residential","material":"Wood","scope":"Addition","category":"residential"},
+  {"name":"918 Roxbury Guest House Canopy","location":"California","description":"Structural engineering and detailing for a guest-house canopy.","type":"Residential","material":"Steel","scope":"Specialty structure","category":"residential"},
+  {"name":"243 Cambridge Street, Unit 1","location":"Massachusetts","description":"Site investigation and structural report addressing emergency floor damage associated with water intrusion.","type":"Residential","material":"Existing structure","scope":"Investigation","category":"residential"},
+  {"name":"Bergeron Residence Garage Frame","location":"Virginia","description":"Structural design and drawings for a residential garage frame.","type":"Residential","material":"Wood + steel","scope":"Structural modification","category":"residential"},
+  {"name":"Kertache Project","location":"Virginia","description":"Residential structural drawings and construction coordination.","type":"Residential","material":"Wood","scope":"Structural modification","category":"residential"},
+  {"name":"930 Mariners Drive","location":"Virginia","description":"Residential structural engineering and permit documentation.","type":"Residential","material":"Wood","scope":"Structural modification","category":"residential"},
+  {"name":"11229 Leatherwood Drive","location":"Reston, VA","description":"Structural drawings for a new opening in an existing load-bearing wall.","type":"Residential","material":"Wood + steel","scope":"Existing-building modification","category":"residential"},
+  {"name":"19304 Creek Field Circle","location":"Virginia","description":"Structural calculations and construction details for a residential project.","type":"Residential","material":"Wood","scope":"Calculations + details","category":"residential"},
+  {"name":"2821 Bayshore","location":"California","description":"Structural engineering based on review of original plans and existing conditions.","type":"Residential","material":"Existing structure","scope":"Existing-building modification","category":"residential"},
+  {"name":"Thompson Residence","location":"Virginia","description":"Construction-phase structural support for bracket and strap modifications during residential remodeling.","type":"Residential","material":"Wood","scope":"Construction support","category":"residential"},
+  {"name":"Apartment Unit Repairs","location":"Mid-Atlantic region","description":"Inspection of existing apartment units and documentation of required structural repairs.","type":"Multifamily","material":"Existing structure","scope":"Inspection","category":"residential"},
+
+  {"name":"Pendry Hotel","location":"Park City, UT","description":"Three five-story concrete buildings over a two-story podium.","type":"Hospitality","material":"Concrete","scope":"New construction","category":"commercial"},
+  {"name":"Mayflower Office Building","location":"Mayflower, UT","description":"A 240-foot-tall concrete office structure.","type":"Commercial","material":"Concrete","scope":"New construction","category":"commercial"},
+  {"name":"Lone Peak Office Building","location":"Highland / Alpine City, UT","description":"Five-story steel office structure using buckling-restrained braces.","type":"Commercial","material":"Steel","scope":"New construction","category":"commercial"},
+  {"name":"Uncommons Office Buildings","location":"Las Vegas, NV","description":"Four four-story concrete tilt-up office buildings.","type":"Commercial","material":"Concrete tilt-up","scope":"New construction","category":"commercial"},
+  {"name":"816 Crain Highway","location":"Maryland","description":"Structural design and permit revisions for an existing commercial property, including rooftop-equipment coordination.","type":"Commercial","material":"Existing structure","scope":"Design revisions","category":"commercial"},
+  {"name":"6835 Olney Laytonsville","location":"Laytonsville, MD","description":"Structural drawings and construction-phase responses to contractor RFIs.","type":"Commercial","material":"Wood + steel","scope":"Design + construction support","category":"commercial"},
+  {"name":"Raising Cane's Inglewood","location":"Inglewood, CA","description":"Structural glass and elevator-ceiling evaluation supported by calculations and an engineering recommendation.","type":"Restaurant","material":"Glass + steel","scope":"Specialty engineering","category":"commercial"},
+  {"name":"Happy Cat Hotel","location":"Virginia","description":"Structural review and engineering letter for modifications to an existing commercial space.","type":"Hospitality","material":"Existing structure","scope":"Tenant improvement","category":"commercial"},
+  {"name":"417 Carroll Street","location":"Brooklyn, NY","description":"Engineering review and stamping for steel-framed GFRC panels, followed by specialty staircase review.","type":"Commercial","material":"Steel + GFRC","scope":"Peer review + specialty structures","category":"commercial"},
+  {"name":"Yazdani Tenant Improvement","location":"Mid-Atlantic region","description":"Structural drawings for removal and replacement of an existing load-bearing wall in a professional office.","type":"Tenant improvement","material":"Wood + steel","scope":"Existing-building modification","category":"commercial"},
+  {"name":"Dragonfly Club Lodge","location":"Old Mountain Road","description":"Structural engineering and clarification support for a lodge project.","type":"Hospitality","material":"Wood","scope":"Design + construction support","category":"commercial"},
+  {"name":"Gracie Jiu-Jitsu","location":"Virginia","description":"Structural design review and stamped permit documentation for a commercial tenant improvement.","type":"Commercial","material":"Existing structure","scope":"Tenant improvement","category":"commercial"},
+  {"name":"Landis Office","location":"Virginia","description":"Structural engineering for an office improvement project.","type":"Office","material":"Existing structure","scope":"Tenant improvement","category":"commercial"},
+  {"name":"RMCS Office Warehouse","location":"Utah","description":"Structural engineering for a combined office and warehouse facility.","type":"Office / warehouse","material":"Steel","scope":"Commercial facility","category":"commercial"},
+  {"name":"Vermont Building","location":"California","description":"Independent peer review and revision review of an existing-building structural report.","type":"Commercial","material":"Existing structure","scope":"Peer review","category":"commercial"},
+
+  {"name":"Intermountain Healthcare Building","location":"Salt Lake County, UT","description":"Three-story wood healthcare structure.","type":"Healthcare","material":"Wood","scope":"New construction","category":"institutional"},
+  {"name":"South Jordan Fire Station","location":"South Jordan, UT","description":"Two-level masonry public-safety structure.","type":"Public safety","material":"Masonry","scope":"New construction","category":"institutional"},
+  {"name":"OSH Building — University of Utah","location":"Salt Lake City, UT","description":"Concrete university structure.","type":"Higher education","material":"Concrete","scope":"New construction","category":"institutional"},
+  {"name":"Mandell Weiss Theatre — UCSD","location":"La Jolla, CA","description":"Three-story existing steel structure with braced frames.","type":"Cultural","material":"Steel","scope":"Existing building","category":"institutional"},
+  {"name":"Southwestern College","location":"Chula Vista, CA","description":"Structural steel staircases for a college campus.","type":"Higher education","material":"Steel","scope":"Specialty structures","category":"institutional"},
+  {"name":"Bethesda YMCA A-Pool","location":"Bethesda, MD","description":"Review of historic drawings and development of an extensive structural assessment plan for an existing pool facility.","type":"Community facility","material":"Existing concrete","scope":"Assessment","category":"institutional"},
+  {"name":"NIH Tank Replacement","location":"Bethesda, MD","description":"Structural drawings and engineering support for equipment-tank replacement at a federal research campus.","type":"Federal / research","material":"Steel + concrete","scope":"Equipment replacement","category":"institutional"},
+  {"name":"TFTC Facility Improvements","location":"Marine Corps Base Quantico, VA","description":"Structural work for steel beams, specialty ladders, a huddle-room catwalk, and related facility improvements.","type":"Federal","material":"Steel","scope":"Facility modifications","category":"institutional"},
+  {"name":"Federal Facility Site Assessment","location":"Virginia","description":"Site visit and structural assessment services for an occupied federal facility.","type":"Federal","material":"Existing structure","scope":"Site assessment","category":"institutional"},
+  {"name":"U.S. Government Publishing Office Improvements","location":"Washington, DC","description":"Structural surveys, scanning coordination, site visits, T-beam modifications, and chiller-support engineering.","type":"Federal","material":"Concrete + steel","scope":"Existing-building modifications","category":"institutional"},
+  {"name":"Alpine Veterinary Hospital","location":"Utah","description":"Structural assessment, drawings, plan-check revisions, and foundation special inspection.","type":"Healthcare","material":"Wood + concrete","scope":"Assessment + design","category":"institutional"},
+  {"name":"Rappahannock Building","location":"Virginia","description":"Structural assessment of an existing building and documentation of findings.","type":"Institutional","material":"Existing structure","scope":"Assessment","category":"institutional"},
+
+  {"name":"Michelson Laboratory — China Lake","location":"China Lake, CA","description":"Existing concrete laboratory buildings with a central spine and wings.","type":"Laboratory","material":"Concrete","scope":"Existing building","category":"industrial"},
+  {"name":"PFS Compton","location":"Compton, CA","description":"Tenant improvement in an existing concrete and steel facility.","type":"Tenant improvement","material":"Concrete + steel","scope":"Tenant improvement","category":"industrial"},
+  {"name":"Tuscany Crest Pump Station","location":"San Diego, CA","description":"One-story masonry building with freestanding walls.","type":"Infrastructure","material":"Masonry","scope":"New construction","category":"industrial"},
+  {"name":"Tesla Buildings 3888 & 3912","location":"San Diego, CA","description":"Industrial tenant improvements in existing buildings.","type":"Industrial","material":"Existing structures","scope":"Tenant improvement","category":"industrial"},
+  {"name":"Pimlico Permanent Retaining Wall","location":"Baltimore, MD","description":"Permanent soldier-pile retaining wall with cast-in-place concrete facing in front of an existing failing wall.","type":"Infrastructure","material":"Steel + concrete","scope":"New retaining structure","category":"industrial"}
 ]
