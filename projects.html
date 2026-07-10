@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore selected HRS structural engineering experience across residential, commercial, institutional, and industrial sectors.">
+  <meta name="theme-color" content="#0b1720">
+  <title>Projects | HRS Structural Consultants</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <div class="shell header-inner">
+      <a class="brand" href="index.html" aria-label="HRS Structural Consultants home"><img class="brand-logo" src="assets/hrs-logo.svg" alt=""></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span class="sr-only">Open navigation</span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a><a href="services.html">Services</a><a href="projects.html" aria-current="page">Projects</a><a href="about.html">About Us</a><a class="button button-small" href="contact.html">Start a project</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="page-hero-grid" aria-hidden="true"></div>
+      <div class="shell page-hero-content reveal is-visible">
+        <p class="eyebrow">Selected experience</p>
+        <h1>Structures across markets, materials, and scales.</h1>
+        <p>Explore project experience by sector, from multi-story residential buildings to laboratories, offices, civic facilities, and industrial improvements.</p>
+      </div>
+    </section>
+
+    <section class="projects projects-page section">
+      <div class="shell">
+        <div class="projects-heading reveal">
+          <div><p class="eyebrow">Project sectors</p><h2>Built experience.<br>Practical perspective.</h2></div>
+          <p>Choose a sector tab to browse the complete documented project list for that market.</p>
+        </div>
+        <div class="project-toolbar project-tabs reveal" role="tablist" aria-label="Project sectors">
+          <button class="filter is-active" id="tab-residential" role="tab" aria-selected="true" aria-controls="project-grid" tabindex="0" type="button" data-filter="residential">Residential &amp; mixed-use</button>
+          <button class="filter" id="tab-commercial" role="tab" aria-selected="false" aria-controls="project-grid" tabindex="-1" type="button" data-filter="commercial">Commercial &amp; hospitality</button>
+          <button class="filter" id="tab-institutional" role="tab" aria-selected="false" aria-controls="project-grid" tabindex="-1" type="button" data-filter="institutional">Institutional &amp; civic</button>
+          <button class="filter" id="tab-industrial" role="tab" aria-selected="false" aria-controls="project-grid" tabindex="-1" type="button" data-filter="industrial">Industrial, laboratory &amp; infrastructure</button>
+        </div>
+        <div class="project-category-heading" id="project-category-heading" aria-live="polite"></div>
+        <div class="project-grid" id="project-grid" role="tabpanel" aria-labelledby="tab-residential" aria-live="polite"></div>
+        <p class="experience-note">Documented experience includes completed projects and active contracted assignments identified in the firm’s project records. Roles and services varied by assignment.</p>
+      </div>
+    </section>
+
+    <section class="page-cta"><div class="shell page-cta-inner reveal"><div><p class="eyebrow">Your project</p><h2>What are you planning next?</h2></div><a class="button button-light" href="contact.html">Discuss your project</a></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="shell footer-grid"><a class="brand footer-brand" href="index.html" aria-label="HRS Structural Consultants home"><img class="brand-logo footer-logo" src="assets/hrs-logo.svg" alt=""></a><div class="footer-links"><a href="services.html">Services</a><a href="projects.html">Projects</a><a href="about.html">About Us</a><a href="contact.html">Contact</a></div><div class="footer-meta"><p>Structural engineering for new and existing buildings.</p><p>© <span class="year"></span> HRS Structural Consultants</p></div></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
