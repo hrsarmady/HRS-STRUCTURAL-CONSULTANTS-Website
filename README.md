@@ -4,8 +4,8 @@ A responsive, dependency-free static website designed for direct publishing with
 
 ## Before publishing
 
-1. Open `index.html`.
-2. Replace both instances of `YOUR_EMAIL@example.com` with the correct HRS email address.
+1. Open `index.html` and `contact.html`.
+2. Replace every instance of `YOUR_EMAIL@example.com` with the correct HRS email address.
 3. Review the biography and service descriptions.
 4. Add verified license information, office location, phone number, and social links if desired.
 5. Confirm that the project-experience disclaimer matches how the projects may be represented.
@@ -46,6 +46,10 @@ GitHub will show the DNS records required for the custom domain. Preserve any ex
 ## Files
 
 - `index.html` — page structure and copy
+- `about.html` — qualifications and firm approach
+- `services.html` — structural engineering services
+- `projects.html` — sector-filtered project portfolio
+- `contact.html` — project inquiry page
 - `styles.css` — visual system and responsive layouts
 - `script.js` — navigation, project filtering, animations, and contact form
 - `data/projects.json` — project portfolio data
