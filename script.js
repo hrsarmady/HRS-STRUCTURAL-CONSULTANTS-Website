@@ -128,8 +128,8 @@ if (contactForm && contactEmail && formStatus) {
     event.preventDefault();
     const destination = contactEmail.getAttribute("href").replace("mailto:", "");
 
-    if (!destination || destination.includes("YOUR_EMAIL")) {
-      formStatus.textContent = "Add the HRS email address in the page markup to activate this form.";
+    if (!destination || !destination.includes("@")) {
+      formStatus.textContent = "Please add a valid HRS email address before using the form.";
       return;
     }
 
